@@ -943,6 +943,7 @@ Repositories used by the cases, or implementing relevant workflows or evaluation
 
 ### 3D modeling
 
+- [LiteReality/LiteReality-Agent](https://github.com/LiteReality/LiteReality-Agent): Apache-2.0 agentic system that reconstructs realistic, articulated, simulation-ready indoor 3D scenes from RGB-D scans. Coding agents iteratively edit `Room.py` through an observe-edit-verify workflow, with geometry and layout checks, procedural assets, and MuJoCo, URDF and MJCF exports. The repository defaults to GPT-6 Astra through Codex for scene authoring and Claude Opus 5 through Claude Code for reconstruction reasoning and procedural assets. [Project page](https://litereality.github.io/agent/) · [Paper](https://arxiv.org/abs/2610.01863) (2026-10-01).
 - [mike007jd/voxel-musou](https://github.com/mike007jd/voxel-musou): MIT Three.js game source for [the creator's Opus 5.5 Voxel Musou demonstration](#case-m103).
 - [LBEILC/RhineLabUI](https://github.com/LBEILC/RhineLabUI): MIT interactive 3D archive terminal in TypeScript and Three.js, with a [live site](https://rhine.lubeiluchen.cc/). The README credits GPT-6 Astra with assisting the code and says the models were made through Blender MCP.
 - [sldyns/PKU-3D](https://github.com/sldyns/PKU-3D): MIT interactive 3D campus of Peking University, with a [live demo](https://sldyns.github.io/PKU-3D/). The README credits GPT-6 Astra and publicly available source data, and notes that "some dimensions and architectural details are approximate".
